@@ -1,4 +1,4 @@
-import { createInstance, MatomoProvider } from '@m4tt72/matomo-tracker-react';
+// import { createInstance, MatomoProvider } from '@m4tt72/matomo-tracker-react';
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import { Layout } from '../components/layout';

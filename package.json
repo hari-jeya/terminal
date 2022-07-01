@@ -1,15 +1,11 @@
 {
   "name": "terminal",
-  "version": "2.12.0",
+  "version": "1.12.0",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://m4tt72.com",
-    "email": "hi@m4tt72.com"
-  },
-  "funding": {
-    "type": "Paypal",
-    "url": "https://paypal.me/y4ss1n3"
+    "name": "hari.jeyakrishnan.fr",
+    "url": "https://hari.jeyakrishnan.fr",
+    "email": "hari.jeya@outlook.fr"
   },
   "repository": {
     "type": "git",
