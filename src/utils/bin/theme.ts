@@ -20,7 +20,7 @@ Example:
     case 'ls':
       let result = Themes.map((theme) => theme.name.toLowerCase()).join(', ');
       result += '\n\n';
-      result += `You can preview all these themes <a href="https://github.com/m4tt72/terminal/tree/master/docs/themes">in the docs</a>`;
+      result += `Here are some very popular terminal themes \nAnd 'MrRobot' is the theme of my own terminal.`;
 
       return result;
     case 'set':

@@ -17,8 +17,13 @@ export const linkedin = async (args: string[]): Promise<string> => {
 
   return 'Opening linkedin...';
 };
-export const docx = async (args: string[]): Promise<string> => {
+export const projects = async (args: string[]): Promise<string> => {
   window.open(`https://hari.jeyakrishnan.fr/`);
 
   return 'Opening Docx...';
 };
+export const email = async (args: string[]): Promise<string> => {
+    window.open(`mailto:${config.social.mail}`);
+  
+    return `Opening mailto:${config.social.mail}...`;
+  };

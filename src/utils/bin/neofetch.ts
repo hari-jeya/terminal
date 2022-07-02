@@ -1,5 +1,6 @@
 import { formatDistanceToNow } from 'date-fns';
 import packageJson from '../../../package.json';
+import config from '../../../config.json';
 import themes from '../../../themes.json';
 
 const macos = `
@@ -128,22 +129,21 @@ const getInfo = () => {
   let message = '';
 
   message += `<span style="color: ${mainColor}">Host</span>: ${hostname}\n`;
+  message += `---------------\n`;
   message += `<span style="color: ${mainColor}">OS</span>: ${os}\n`;
   message += `<span style="color: ${mainColor}">Packages</span>: ${
     packages.length + devPackages.length
   } (npm)\n`;
   message += `<span style="color: ${mainColor}">Resolution</span>: ${resolution}\n`;
-  message += `<span style="color: ${mainColor}">Shell</span>: m4tt72-web\n`;
+  message += `<span style="color: ${mainColor}">Shell</span>: bash 5.1.16\n`;
   message += `<span style="color: ${mainColor}">Theme</span>: ${theme}\n`;
-  message += `<span style="color: ${mainColor}">License</span>: ${packageJson.license}\n`;
-  message += `<span style="color: ${mainColor}">Version</span>: ${packageJson.version}\n`;
-  message += `<span style="color: ${mainColor}">Repo</span>: <a href="${packageJson.repository.url}" target="_blank">${packageJson.repository.url}</a>\n`;
+  message += `<span style="color: ${mainColor}">License</span>: ${config.site.license}\n`;
+  message += `<span style="color: ${mainColor}">Version</span>: ${config.site.version}\n`;
+  message += `<span style="color: ${mainColor}">Repo</span>: <a href="${config.repository.url}" target="_blank">${config.repository.url}</a>\n`;
   message += `<span style="color: ${mainColor}">Uptime</span>: ${formatDistanceToNow(
     visitedAt,
   )}\n`;
-  message += `<span style="color: ${mainColor}">Author</span>: ${packageJson.author.name} (${packageJson.author.email})\n`;
-  message += `<span style="color: ${mainColor}">Donate</span>: <a href="${packageJson.funding.url}" target="_blank">${packageJson.funding.type}</a>\n`;
-
+  message += `<span style="color: ${mainColor}">Author</span>: ${config.author.name} (${config.author.email})\n`;
   return message;
 };
 

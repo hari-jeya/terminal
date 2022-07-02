@@ -1,16 +1,4 @@
 {
-  "name": "terminal",
-  "version": "1.12.0",
-  "license": "MIT",
-  "author": {
-    "name": "hari.jeyakrishnan.fr",
-    "url": "https://hari.jeyakrishnan.fr",
-    "email": "hari.jeya@outlook.fr"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
-  },
   "scripts": {
     "start": "next start",
     "build": "next build",

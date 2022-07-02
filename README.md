@@ -8,14 +8,15 @@ I wanted to share my love for linux through this site which not only looks like 
 
 # Origins
 
-I did not build the site from scratch, this project is fork of the absolutely brilliant repo of [Yassine Fathi](https://github.com/m4tt72)
+I did not build the site from scratch, this project is fork of [Yassine Fathi](https://github.com/m4tt72) terminal project.
 
 feel free to check his repo [here](https://github.com/m4tt72/terminal).
 
-# Forked
+# Fork
+
 If you want to build a terminal site you can of course fork my repo.
 
 but I advise you to fork Yassine Fathi's repo because his repo must be better maintained than mine.
 
 if need be, don't hesitate to CTRL+C; CTRL+V the modifications I made to the project.
-
+            
