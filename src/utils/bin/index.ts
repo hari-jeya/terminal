@@ -12,5 +12,3 @@ export * from './banner';
 // export * from './donate';
 export * from './help';
 export * from './editor';
-export * from './sudo';
-export * from './repo';

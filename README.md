@@ -19,4 +19,11 @@ If you want to build a terminal site you can of course fork my repo.
 but I advise you to fork Yassine Fathi's repo because his repo must be better maintained than mine.
 
 if need be, don't hesitate to CTRL+C; CTRL+V the modifications I made to the project.
-            
+
+# Ce que j'aimeais ajouter au projet
+si tu regarde le code que j'ai produit tu vas vite comprendre que je ne suis pas une programmeur.
+et je suis tres loin de l'etre. alors je suis preneur de toute les aide.
+
+## HELP commande
+aujourd'hui la commmande Helps c'est est juste un pavé de texte.
+mais je 

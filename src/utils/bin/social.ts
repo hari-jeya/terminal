@@ -2,6 +2,7 @@ import config from '../../../config.json';
 
 export const instagram = async (args: string[]): Promise<string> => {
   window.open(`https://www.instagram.com/${config.social.instagram}/`);
+  var des = "tu as vu ma derniere photos ?";
 
   return 'Opening instagram...';
 };
@@ -18,7 +19,7 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 export const projects = async (args: string[]): Promise<string> => {
-  window.open(`https://hari.jeyakrishnan.fr/`);
+  window.open(`https://www.hari.jeyakrishnan.fr`);
 
   return 'Opening Docx...';
 };
